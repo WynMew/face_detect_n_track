@@ -1,5 +1,5 @@
-#include <opencv2\highgui\highgui.hpp>
-#include <opencv2\imgproc\imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 
 #include "VideoFaceDetector.h"
 
@@ -16,7 +16,7 @@ int main(int argc, char** argv)
 		exit(1);
 	}
 
-	cv::namedWindow(WINDOW_NAME, cv::WINDOW_KEEPRATIO | cv::WINDOW_AUTOSIZE);
+	cv::namedWindow(WINDOW_NAME, cv::WINDOW_AUTOSIZE);
 
 	VideoFaceDetector detector(CASCADE_FILE, camera);
 	cv::Mat frame;
