@@ -1,5 +1,7 @@
 # [Youtube video](https://youtu.be/lkFBWUjwDl8)
 
+Revised by WynMew (to support Linux)
+
 # Usage
 
 First you need to create a `VideoCapture` object that you'll use as a source. Then pass the path to your cascade file along with the `VideoCapture` object to the `VideoFaceDetector`.
